@@ -15,3 +15,5 @@ gem 'puma'
 gem 'slim'
 gem 'pry', group: [:development, :test]
 gem 'letter_opener', :group => :development
+
+gem 'devise'
