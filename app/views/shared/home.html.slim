@@ -1,1 +1,6 @@
 h1 Hi I am Adam
+
+- if user_signed_in? && current_user.profile.present?
+  = link_to 'Edit Profile', edit_profiles_path
+- else
+  = link_to 'Create Profile', new_profiles_path
